@@ -3,7 +3,7 @@
 ## ⬇️ Installation
 1. Clone this repository:
     ```shell
-    https://github.com/Milanaaaa/SA_2024_A4_Pipes-and-filters.git
+    git clone https://github.com/Milanaaaa/SA_2024_A4_Pipes-and-filters.git
     ```
 2. Ensure that you have pip installed:
     ```shell
@@ -12,7 +12,7 @@
 3. Install and use virtualenv (optional):
     ```shell
     pip install virtualenv
-    python3 -m venv venv
+    python -m venv venv
     ```
     On Windows, run:
     ```shell
