@@ -39,3 +39,14 @@ options:
   -r RESIZE, --resize RESIZE  Resize filter
   -b BLUR, --blur BLUR        Gaussian blur filter
 ```
+
+### Filters 
+- Black and white `-w` — make output stream black and white
+- Mirroring `-m` — mirror output stream
+- Resize `-r RESIZE` — resize output stream `RESIZE` times
+- Blur `-b BLUR` — blur output stream using Gaussian blur with `BLUR` kernel size
+
+### Example
+```shell
+python main.py -w -m -r 1.5 -b 9
+```
